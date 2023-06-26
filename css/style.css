@@ -1,5 +1,4 @@
 /* css/style.css */
-
 body{
   background-color:grey;
   background-image: url("images/background_1.png");
@@ -16,7 +15,7 @@ body{
   right:0;
    text-align: right;
    font-size: 22px;
-   font-family: "Nunito Sans Light", sans-serif;
+   font-family: 'Nunito Sans', sans-serif;
    color:white;
 }
 
@@ -62,7 +61,7 @@ body{
     margin-left: 100px;
     text-align: left;
     font-size: 32px;
-    font-family: "Nunito Sans Light", sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     color: white;
    
   }
@@ -95,7 +94,7 @@ body{
     font-size: 64px;
     font-family: "Nunito Sans ExtraBold", sans-serif;
     margin-top:240px;
-  }
+  } 
   
   .content button {
     display: flex;
@@ -110,19 +109,17 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 22px;
-  font-family: "Nunito Sans Light", sans-serif;
+  color: white;font-family: 'Nunito Sans', sans-serif;
   margin-top: 750px;
   
   }
   /* h2*/
   .content h2{
+    font-size: 60px;
     position: absolute;
     top: 0;
     text-align: center;
-    font-size: 60px;
-    font-family: "Nunito Sans Bold", sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     color: white;
     margin-top:1550px;
     margin-left:622px;
@@ -130,60 +127,72 @@ body{
     
   }
    /* mailto:farahmunawar@ymail.com */
-  div.content a[href="mailto: farahmunawar@ymail.com"] {
+footer{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  font-size: 35px;
+}
+ div.content a[href="mailto: farahmunawar@ymail.com"] {
     position: absolute;
     top: 0;
     left:0;
     text-align: center;
-    font-size: 22px;
-    font-family: "Nunito Sans Light", sans-serif;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
     color: white;
     margin-top:1630px;
     margin-left:390px;
  }
  
-  section.footer div.content {
+.footer div.content {
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     margin-top:100px;
   }
-  section.footer button {
-    position: absolute;
+.footer button {
     width: 134px; 
     height: 56px;
     top: 0px;
     left: 0px;
-   margin-left:435px;
-   margin-top: 1870px;
    font-size: 22px;
    text-align: center;
 
   }
-  section.footer ul {
+.contactme{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 2px;
+  font-size: 22px;
+}
+.footer ul {
     list-style: none;
     padding: 0;
     margin: 0;
+  display: flex;
+  flex-direction: column;
+text-align: left;
+font-size: 22px;
   }
   
-  section.footer ul li {
-    margin-top: 10px;
+.footer ul li {
+    margin: 2px;
+    padding: 2px;
   }
+.icons {
+  height: 37px;
+  width: 37px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
   
-  section.footer div.content {
-    margin-top: 1900px;
-  }
-  
-  
-  
-  
-  
-  
-    
-
-
-
-
-
-  
+}
+.resume{
+  padding:10px;
+}
