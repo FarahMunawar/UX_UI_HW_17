@@ -127,7 +127,7 @@ body{
     
   }
    /* mailto:farahmunawar@ymail.com */
-footer{
+ footer{
   
   display: flex;
   align-items: center;
@@ -148,14 +148,14 @@ footer{
     margin-left:390px;
  }
  
-.footer div.content {
+ .footer div.content {
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     margin-top:100px;
   }
-.footer button {
+ .footer button {
     width: 134px; 
     height: 56px;
     top: 0px;
@@ -164,35 +164,36 @@ footer{
    text-align: center;
 
   }
-.contactme{
+
+ .resume{
+  padding:10px;
+ }
+ .contactme{
   display: flex;
   flex-direction: row;
   padding: 5px;
   gap: 2px;
   font-size: 22px;
-}
-.footer ul {
+ }
+ .footer ul {
     list-style: none;
     padding: 0;
     margin: 0;
   display: flex;
   flex-direction: column;
-text-align: left;
-font-size: 22px;
+  text-align: left;
+  font-size: 22px;
   }
   
-.footer ul li {
+ .footer ul li {
     margin: 2px;
     padding: 2px;
   }
-.icons {
-  height: 37px;
-  width: 37px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  
-}
-.resume{
-  padding:10px;
-}
+ .icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+  gap: 20px;
+ }
+ 
